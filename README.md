@@ -1,9 +1,9 @@
-<<<<<<< HEAD
-Projet fil rouge Simplon
 
-Demande client :
+**Projet fil rouge Simplon**
 
-Page Streamer Skyzo Dwarf https://www.twitch.tv/skyzodwarf
+**Demande client 
+
+**Page Streamer Skyzo Dwarf https://www.twitch.tv/skyzodwarf **
 
 Accueil : Présentation du streamer, (bio) avec dernier live en rediff.
 
