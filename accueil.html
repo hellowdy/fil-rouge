@@ -37,12 +37,41 @@
       </nav>
   </header>
     <main>
+        <figure>
+            <img src="img/banniere.png" class="picture">
+        </figure>
         <section>
+           
+                <!-- Add a placeholder for the Twitch embed -->
+    <article id="twitch-embed">
 
+    <!-- Load the Twitch embed JavaScript file -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480, 
+        channel: "SkyzoDwarf",
+        theme : "dark",
+        // Only needed if this page is going to be embedded on other websites
+        
+      });
+    </script>
+    </article>
+    <aside>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, nisi expedita! Dolor asperiores distinctio, dolorum, pariatur rem voluptatum quos doloremque magni nulla, itaque ut nisi reprehenderit consequatur! Voluptate, veritatis quibusdam?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto ex ut ab vero deleniti facere repellat minima praesentium! Excepturi animi consequatur cumque neque repellendus eligendi dolores laboriosam, eum minus possimus.</p>
+    </aside>
         </section>
     </main>
   <footer>
-      
+        <section>
+            <p>COPYRIGHT SkyzoDwarf</p>
+            <p>Contact preofessionnel</p>
+        </section>
   </footer>
   
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
