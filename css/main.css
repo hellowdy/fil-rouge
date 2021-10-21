@@ -335,11 +335,16 @@ article a{
     padding-bottom: 1%;
     padding-top: 3%;
 }
-  
-#twich-embed{
-    position: absolute;
 
+.litleBoxou{
+  border: solid black;
+  margin: 5%;
 }
+/*#twich-embed{
+    position: absolute;
+    top 80%;
+
+}*/
 
   /*footer{
     background-color: white;
