@@ -1,4 +1,6 @@
-
+* {
+  box-sizing: border-box;
+}
 
 /* Contact */
 
@@ -12,7 +14,7 @@
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgb(255, 145, 0);
   border-radius: 10px;
-  background-color: rgb(180, 169, 169);
+  background-color: rgb(209, 209, 209);
 }
 
   
@@ -33,7 +35,7 @@
   position: relative;
   display: inline-block;
   padding: 10px 20px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
@@ -82,7 +84,7 @@
 }
 
 .message:hover {
-  border: rgb(0, 0, 0);
+  border: solid #ffa600;
   height: 12em;
   width: 300px;
   transition: ease 0.5s;
@@ -153,5 +155,3 @@
     bottom: 100%;
   }
 }
-
-/* Responsive */
